@@ -1,0 +1,83 @@
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    position: absolute;
+    top: 10vh;
+    height: 50%;
+    width: 25vw;
+    /* border: 0.3px solid black; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5%;
+    background-color: white
+}
+
+.loginForm h1 {
+    color: black;
+    text-align: center;
+}
+
+.loginInput {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    color: black;
+}
+
+.loginInput label {
+    margin-left: 1.125vw;
+    font-size: 25px;
+}
+
+.loginInput input {
+    margin-left: 2.5vw;
+    margin-top: 1vh;
+    width: 10vw;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    font-size: 18px;
+}
+
+.form-footer button {
+    width: 10vw;
+    height: 3vh;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    height: 5vh;
+    width: 10vw ;
+    font-size: 16px;
+}
+
+.form-footer {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.form-footer button:hover {
+    background-color: black;
+    border: 1.5px solid white;
+    transition: 0.6s;
+    color: white;
+}
+.form-footer span {
+    margin-top: 1vh;
+
+}
+
+.form-footer a {
+    text-decoration: underline;
+    color: grey;
+}
+
+.form-footer a:hover {
+    transition: 0.6s;
+    color: black;
+}

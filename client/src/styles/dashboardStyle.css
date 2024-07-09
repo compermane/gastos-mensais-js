@@ -1,0 +1,66 @@
+.dashboard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard {
+    position: absolute;
+    top: 10vh;
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-sizing: border-box;
+}
+
+.dashboard h1 {
+    margin-left: 1vw;
+}
+
+.dashboard ul {
+    list-style: none;
+}
+
+.gasto {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-top: 0.8px solid lightgray;
+    width: 107.5%;
+    padding: 1.5vh 0;
+    margin-right: 20vw;
+    margin-left: -2.1vw;
+}
+
+.gasto p {
+    margin-left: 0.5vw;
+}
+
+.add-gasto-form {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    margin-left: -25vw;
+}
+
+.add-gasto-form label, .add-gasto-form input {
+    margin-top: 2.7vh;
+    margin-left: 1vw;
+}
+
+.add-button, .delete-button {
+    margin-top: 1.5vh;
+    margin-left: 1vw;;
+    height: 5vh;
+    width: 7vw;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 20px;
+}
+
+.add-button:hover, .delete-button:hover {
+    background-color: black;
+    border: 1.5px solid white;
+    transition: 0.6s;
+    color: white;
+}
